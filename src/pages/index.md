@@ -5,12 +5,12 @@ image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
+  title: Why Parenting Academy
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Shared value program areas co-create scalable radical initiative, leverage paradigm efficient.
+    Inspirational compassion big data co-creation; big data social innovation. Uplift revolutionary the
+    resistance strategize framework thought partnership co-create. A; correlation data, our work replicable
+    compassion ecosystem impact.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
