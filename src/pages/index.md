@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Be the best Parent you can be
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Be the best Parent you can be
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Parenting Academy
@@ -12,10 +12,7 @@ mainpitch:
     resistance strategize framework thought partnership co-create. A; correlation data, our work replicable
     compassion ecosystem impact.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Brief description here...
 intro:
   blurbs:
     - image: /img/coffee.png

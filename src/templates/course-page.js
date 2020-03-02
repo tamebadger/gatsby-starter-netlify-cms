@@ -5,8 +5,66 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import ContentLayout from '../components/ContentLayout'
 import { softPink } from '../utils/colors'
+import { Button, ContentBox } from "storybook-pa"
+import ButtonContainer from '../components/ButtonContainer'
+
+
+const courseDataSetOne = [
+  {
+    title: "Language Development For 3 to 6 year olds",
+    tag: "10 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1507077630565-b23bbbe732ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Teaching Your Child Impulse Control",
+    tag: "7 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1502338425440-7bf57557e2ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Teaching Boundaries In 10 Steps",
+    tag: "10 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1509676468933-c98e51205cef?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "21 Developmental Milestones",
+    tag: "21 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1505692069463-edfaea445fcd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=550&h=290&q=60"
+  }
+]
+
+const courseDataSetTwo = [
+  
+  {
+    title: "ABC of Emotional Development",
+    tag: "21 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1557172955-5c0491a20970?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Potty Training Made Easy",
+    tag: "10 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1507098092992-fc64b4ac7072?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Manifest Good Habits Every Day",
+    tag: "21 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1471199336425-8966ccc0a907?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Teaching Your Child Impulse Control",
+    tag: "7 DAY COURSE",
+    src:
+      "https://images.unsplash.com/photo-1502338425440-7bf57557e2ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  }
+];
 
 export const CoursePageTemplate = ({
   image,
@@ -41,7 +99,50 @@ export const CoursePageTemplate = ({
     </div>
     <section className="section section--gradient">
       <div className="container">
+
         <div className="section">
+          
+        <div className="columns">
+          <div className="column">
+            <ButtonContainer>
+              <Button buttonTitle={'My Courses'} />
+              <Button buttonTitle={'New Courses'} />
+              <Button buttonTitle={'Top 40 Courses'} />
+              <Button buttonTitle={'Browse By Title'} />
+              <Button buttonTitle={'Browse By Author'} />
+            </ButtonContainer>
+          </div>
+        </div>
+
+        <div className="columns">
+          <div className="column">
+          <ContentLayout data={courseDataSetOne} />
+          </div>
+        </div>
+
+        <div className="columns">
+          <div className="column">
+            <ButtonContainer>
+              <Button buttonTitle={'Toddlers'} />
+              <Button buttonTitle={'Babies'} />
+              <Button buttonTitle={"Terrible Two's"} />
+              <Button buttonTitle={'Relationships'} />
+              <Button buttonTitle={'Schooling'} />
+              <Button buttonTitle={'Lorem'} />
+              <Button buttonTitle={'Ipsum'} />
+              <Button buttonTitle={'Dolor'} />
+              <Button buttonTitle={'Isa'} />
+              <Button buttonTitle={'Met'} />
+            </ButtonContainer>
+          </div>
+        </div>
+
+        <div className="columns">
+          <div className="column">
+          <ContentLayout data={courseDataSetTwo} />
+          </div>
+        </div>
+
           <div className="columns">
             <div className="column is-7 is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
@@ -50,16 +151,8 @@ export const CoursePageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
-                </div>
-              </div>
-              <div className="tile is-ancestor">
+              {/* <Features gridItems={intro.blurbs} /> */}
+              {/* <div className="tile is-ancestor">
                 <div className="tile is-vertical">
                   <div className="tile">
                     <div className="tile is-parent is-vertical">
@@ -79,18 +172,9 @@ export const CoursePageTemplate = ({
                     </article>
                   </div>
                 </div>
-              </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
+              </div> */}
+              {/* <Testimonials testimonials={testimonials} /> */}
+              
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>

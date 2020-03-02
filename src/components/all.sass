@@ -2,7 +2,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: rgba(100,0,0,0.4)
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
@@ -143,3 +143,25 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+.button-container
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  padding: 25px;
+  flex-flow: row wrap;
+
+.layout
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 50px;
+  max-width: 1150px;
+
+@media screen and (max-width: 920px)
+  img
+    width: 100%;
+
+@media screen and (min-width: 920px)
+  img
+    width: 400px;

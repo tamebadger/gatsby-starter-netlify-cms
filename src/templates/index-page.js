@@ -5,6 +5,52 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import ContentLayout from '../components/ContentLayout'
+
+const inspireData = [
+  {
+    title: "ABC of Emotional Development",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1504484440176-4f89a392c862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Significance of Breastfeeding",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1499638892001-25bdfe0bba0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Developmental Milestones",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1559806794-3815a1436278?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "The currency of Love Is Time",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1504489969124-eb0e46a5f482?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Preparing The Uterus For Pregnancy",
+    tag: "Inspiration",
+    src:
+      "https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Dynamic Relationships As The Newborn",
+    tag: "Inspiration",
+    src:
+      "https://images.unsplash.com/photo-1527712337080-da9f28bb177a?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Ideal Environment For The Newborn",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1504486739753-9694b535f54b?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  },
+  {
+    title: "Teaching Your Child Impulse Control",
+    tag: "Inspiration",
+    src: "https://images.unsplash.com/photo-1495131292899-bc096577e8f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=550&h=290&q=60"
+  }
+];
 
 export const IndexPageTemplate = ({
   image,
@@ -86,7 +132,8 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                {/* <Features gridItems={intro.blurbs} /> */}
+                <ContentLayout data={inspireData} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/courses">
@@ -96,7 +143,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Latest inspiration
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
