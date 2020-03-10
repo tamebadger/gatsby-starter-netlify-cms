@@ -2,14 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import ContentLayout from '../components/ContentLayout'
+import Tags from '../components/Tags'
 import { softPink } from '../utils/colors'
-import { Button, ContentBox } from "storybook-pa"
+import { Button } from "storybook-pa"
+import { navigate } from '@reach/router';
 import ButtonContainer from '../components/ButtonContainer'
-
 
 const courseDataSetOne = [
   {
@@ -122,18 +121,7 @@ export const CoursePageTemplate = ({
 
         <div className="columns">
           <div className="column">
-            <ButtonContainer>
-              <Button buttonTitle={'Toddlers'} />
-              <Button buttonTitle={'Babies'} />
-              <Button buttonTitle={"Terrible Two's"} />
-              <Button buttonTitle={'Relationships'} />
-              <Button buttonTitle={'Schooling'} />
-              <Button buttonTitle={'Lorem'} />
-              <Button buttonTitle={'Ipsum'} />
-              <Button buttonTitle={'Dolor'} />
-              <Button buttonTitle={'Isa'} />
-              <Button buttonTitle={'Met'} />
-            </ButtonContainer>
+            <Tags/>
           </div>
         </div>
 

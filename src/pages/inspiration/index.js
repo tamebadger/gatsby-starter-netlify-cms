@@ -2,6 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
+import Tags from '../../components/Tags'
 import { softPink } from '../../utils/colors'
 
 export default class BlogIndexPage extends React.Component {
@@ -29,6 +30,7 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <BlogRoll />
+              <Tags/>
             </div>
           </div>
         </section>

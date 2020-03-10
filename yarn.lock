@@ -16684,10 +16684,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-storybook-pa@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/storybook-pa/-/storybook-pa-0.1.5.tgz#ec651162ae4760c0fd5700ebb1da64f1c31ee7c1"
-  integrity sha512-MWGaqNyFb5EkyEn1xt27vptGAQ/iF9Ggk0vX5uXayQfC9pD5q8T8qHyK2W1c9GFCd5McZ5B++nvldxUnuDtR8A==
+storybook-pa@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/storybook-pa/-/storybook-pa-0.1.7.tgz#84d5c424ef51ea249d2e80da76ba05d271e9366b"
+  integrity sha512-1T5nTlOHmIxLQAfFgZ2tZMaZn4jsp/hTGGl4kgHJz1nbdhpVrxifqBGi69MIwe7OofSROtS/cvr7I8ShoIGAgQ==
   dependencies:
     react "^16.12.0"
     react-dom "^16.12.0"
