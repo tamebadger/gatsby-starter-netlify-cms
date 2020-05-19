@@ -1,18 +1,18 @@
 ---
 templateKey: index-page
-title: Be the best Parent you can be
+title: The Ultimate Guide to Parenting
 image: /img/home-jumbotron.jpg
-heading: Be the best Parent you can be
+heading: Your One Stop for All Your Parenting Needs
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Parenting Academy
   description: >
-    Shared value program areas co-create scalable radical initiative, leverage paradigm efficient.
-    Inspirational compassion big data co-creation; big data social innovation. Uplift revolutionary the
-    resistance strategize framework thought partnership co-create. A; correlation data, our work replicable
+    Shared value program areas co-create scalable radical initiative, leverage
+    paradigm efficient. Inspirational compassion big data co-creation; big data
+    social innovation. Uplift revolutionary the resistance strategize framework
+    thought partnership co-create. A; correlation data, our work replicable
     compassion ecosystem impact.
-description: >-
-  Brief description here...
+description: Brief description here...
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -65,3 +65,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
