@@ -1,27 +1,16 @@
 ---
 templateKey: index-page
 title: The Ultimate Guide to Parenting
-image: /img/home-jumbotron.jpg
+image: /img/robert-collins-tvc5imO5pXk-unsplash.jpg
 heading: Your One Stop for All Your Parenting Needs
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Parenting Academy
-  description: >
-    Shared value program areas co-create scalable radical initiative, leverage
-    paradigm efficient. Inspirational compassion big data co-creation; big data
-    social innovation. Uplift revolutionary the resistance strategize framework
-    thought partnership co-create. A; correlation data, our work replicable
-    compassion ecosystem impact.
-description: Brief description here...
+  title: The Parenting Academy
+  description: |
+    Compiled by experts to guide your parenting journey
+description: 'Brief '
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
