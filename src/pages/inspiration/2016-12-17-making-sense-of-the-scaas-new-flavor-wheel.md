@@ -6,7 +6,7 @@ description: >-
   Theres an old adage in the world of parenting advice, Kids spell LOVE as
   T.I.M.E.
 featuredpost: false
-featuredimage: /img/currency_of_love.jpg
+featuredimage: /img/liana-mikah-6KRmH6k3Rdk-unsplash.jpg
 tags:
   - parenting
   - kids
