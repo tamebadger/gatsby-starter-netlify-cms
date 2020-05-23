@@ -12,7 +12,7 @@ tags:
   - kids
   - love
 ---
-![rrency of loveC](/img/currency_of_love.jpg)
+![rrency of loveC](/img/liana-mikah-6KRmH6k3Rdk-unsplash.jpg)
 
 Kids don’t need things nearly as much as they need a parent’s attention and availability. It’s a classic mistake that we make all too often; we give them stuff we’ve bought instead of the thing they most need from us – our interest and investment in them.
 
